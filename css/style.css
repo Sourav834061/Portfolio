@@ -583,6 +583,40 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+@media screen and (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+  }
+  body {
+    padding-inline: 10px !important;
+  }
+  #project-div {
+    height: auto !important;
+    padding-right: 0 !important;
+    margin: 0;
+  }
+  .project-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+  }
+  #iframe-xs {
+    width: 100% !important;
+    height: 50dvh !important;
+    padding-right: 0px !important;
+  }
+  .title-head {
+    font-size: 18px !important;
+    overflow-x: hidden;
+  }
+  #iframe-body {
+    width: 100% !important;
+  }
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
